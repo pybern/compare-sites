@@ -1271,6 +1271,162 @@ Phase 3 (Enhance):
 
 ---
 
+## Vehicle Type Quote Statistics (Non-Car Segment)
+
+This section provides real market data on quote requests for non-car vehicle types, offering valuable insights into demand patterns and service prioritization.
+
+### 📊 Monthly Quote Volume Analysis
+
+**Period:** Last 30 days  
+**Total Quotes Received:** 554
+
+#### Quote Breakdown by Vehicle Type
+
+| Rank | Vehicle Type | Quotes | Share | Demand Level |
+|------|--------------|--------|-------|--------------|
+| 1 | **Oversized Vans, Utes and 4WD's** | 344 | 62.1% | 🔴 Very High |
+| 2 | Salvage & Non-Running Vehicles | 67 | 12.1% | 🟠 High |
+| 3 | Caravan & Campers | 57 | 10.3% | 🟠 High |
+| 4 | Boats & Jet Skis on Trailers | 31 | 5.6% | 🟡 Medium |
+| 5 | Trailers & Towable Items | 23 | 4.2% | 🟡 Medium |
+| 6 | Trucks & Buses | 20 | 3.6% | 🟡 Medium |
+| 7 | Other | 4 | 0.7% | 🟢 Low |
+| 8 | Mining Equipment & Heavy Machinery | 4 | 0.7% | 🟢 Low |
+| 9 | Forklift, Mobile Cranes & Stackers | 3 | 0.5% | 🟢 Low |
+
+#### Visual Distribution
+
+```
+Oversized Vans, Utes & 4WD's  ████████████████████████████████████████████████████  62.1%
+Salvage & Non-Running         ████████                                              12.1%
+Caravan & Campers             ███████                                               10.3%
+Boats & Jet Skis              ████                                                   5.6%
+Trailers & Towable            ███                                                    4.2%
+Trucks & Buses                ██                                                     3.6%
+Other                         ▌                                                      0.7%
+Mining Equipment              ▌                                                      0.7%
+Forklifts & Cranes            ▌                                                      0.5%
+```
+
+---
+
+### 💡 Key Insights & Analysis
+
+#### 1. **Oversized Vans, Utes & 4WD's Dominate Demand (62.1%)**
+
+This category represents nearly two-thirds of all non-car quote requests, highlighting a massive opportunity:
+
+- **Australian market context:** Utes and 4WDs are consistently among the top-selling vehicles in Australia (Toyota HiLux, Ford Ranger, Isuzu D-Max)
+- **Strategic implication:** This service category should receive premium homepage placement and marketing investment
+- **WeMoveX alignment:** ✅ WeMoveX already features "Oversized Vans, Utes and 4WD's" as a dedicated service card — this is validated by actual demand
+
+#### 2. **Salvage & Non-Running Vehicles: Hidden High-Value Segment (12.1%)**
+
+The second-highest category represents a specialized, often higher-margin service:
+
+- **Customer profile:** Insurance companies, salvage yards, auction houses (Pickles, Manheim, Grays — already WeMoveX B2B partners)
+- **Competitive advantage:** Many competitors don't prominently advertise this capability
+- **Recommendation:** Feature "Salvage & Non-Running" more prominently; consider dedicated landing page for B2B buyers
+
+#### 3. **Caravan & Campers: Lifestyle Segment with Seasonal Peaks (10.3%)**
+
+Third-highest demand reflects Australia's strong caravan/camping culture:
+
+- **Market size:** Australia has 800,000+ registered caravans
+- **Seasonal opportunity:** Demand likely spikes pre-summer (Oct-Dec) and pre-Easter
+- **Recommendation:** Consider seasonal marketing campaigns and pricing strategies for this segment
+
+#### 4. **The Long Tail: Specialized Equipment (1.9% combined)**
+
+Mining Equipment, Forklifts, and Heavy Machinery represent low volume but potentially high-value quotes:
+
+- **Characteristics:** Larger job sizes, enterprise clients, less price-sensitive
+- **B2B alignment:** Aligns with WeMoveX's enterprise positioning (Toll, mining sector)
+- **Recommendation:** Maintain these categories but don't over-invest in consumer marketing
+
+---
+
+### 📈 Strategic Recommendations Based on Data
+
+#### Homepage Service Card Ordering
+
+Based on actual demand, the WeMoveX service categories should be prioritized:
+
+| Current Position | Recommended Priority | Rationale |
+|-----------------|---------------------|-----------|
+| Prominent | **#1 - Oversized Vans, Utes & 4WD's** | 62.1% of demand |
+| Standard | **#2 - Salvage & Non-Running** | 12.1% + B2B high-value |
+| Standard | **#3 - Caravan & Campers** | 10.3% + lifestyle market |
+| Standard | **#4 - Boats & Jet Skis** | 5.6% + seasonal |
+| Lower | **#5-9 - Remaining categories** | <5% each |
+
+#### Marketing Budget Allocation
+
+```
+Recommended spend by category (non-car segment):
+
+Oversized Vans/Utes/4WD   ████████████████████  55%
+Salvage & Non-Running     █████                 15%
+Caravan & Campers         ████                  12%
+Boats & Jet Skis          ███                   10%
+All Others                ██                     8%
+```
+
+#### Conversion Funnel Insights
+
+| Category | Est. Conversion Rate | Optimization Focus |
+|----------|---------------------|-------------------|
+| Oversized Vans/Utes/4WD's | Standard (baseline) | Volume optimization |
+| Salvage & Non-Running | Higher (B2B) | Relationship building |
+| Caravan & Campers | Lower (price shoppers) | Trust signals, reviews |
+| Boats & Jet Skis | Variable (seasonal) | Timing-based campaigns |
+| Heavy Equipment | Higher (enterprise) | Account management |
+
+---
+
+### 🔗 Alignment with WeMoveX Design
+
+The quote statistics validate several WeMoveX design decisions:
+
+| Design Element | Data Validation |
+|---------------|-----------------|
+| ✅ **12 service category cards** | Comprehensive coverage matches demand diversity |
+| ✅ **Custom illustrations per vehicle type** | High-demand categories deserve visual differentiation |
+| ✅ **B2B testimonials (Toll, Pickles, Manheim)** | Salvage segment (12.1%) aligns with auction house partnerships |
+| ✅ **Horizontal scroll cards on mobile** | Users can quickly find their specific vehicle type |
+| ⚠️ **Equal visual weight for all categories** | Consider emphasizing top 3 categories (84.5% of demand) |
+
+---
+
+### 📉 Gap Analysis: Competitor Category Coverage
+
+Comparing WeMoveX service categories against competitors and actual demand:
+
+| Vehicle Type | Demand | WeMoveX | WeMoveCars | National CM | CEVA | PrixCar |
+|-------------|--------|---------|------------|-------------|------|---------|
+| Oversized Vans/Utes/4WD's | 62.1% | ✅ | ✅ | ✅ | ⚪ | ⚪ |
+| Salvage & Non-Running | 12.1% | ✅ | ✅ | ⚪ | ⚪ | ⚪ |
+| Caravan & Campers | 10.3% | ✅ | ✅ | ⚪ | ⚪ | ⚪ |
+| Boats & Jet Skis | 5.6% | ✅ | ✅ | ⚪ | ⚪ | ⚪ |
+| Trailers & Towable | 4.2% | ✅ | ✅ | ⚪ | ⚪ | ⚪ |
+| Trucks & Buses | 3.6% | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Mining/Heavy Equipment | 0.7% | ✅ | ✅ | ⚪ | ⚪ | ⚪ |
+| Forklifts/Cranes | 0.5% | ✅ | ✅ | ⚪ | ⚪ | ⚪ |
+
+**Key Finding:** WeMoveX and WeMoveCars offer comprehensive category coverage that competitors lack. This is a significant competitive advantage, especially for the 62.1% Utes/Vans/4WD segment where mainstream competitors focus only on standard cars.
+
+---
+
+### 🎯 Summary: Data-Driven Priorities
+
+1. **Double down on Oversized Vans, Utes & 4WD's** — This is the core non-car business
+2. **Develop B2B relationships for Salvage segment** — High-margin, partnership-driven
+3. **Seasonal campaigns for Caravans** — Capture lifestyle market during peak travel periods
+4. **Maintain comprehensive coverage** — Category breadth is a competitive moat
+5. **Consider hero section variant** — Test a hero specifically targeting 4WD/Ute owners
+
+---
+
 ## Appendix
 
 ### Sites Reviewed
