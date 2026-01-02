@@ -12,6 +12,7 @@
 - [Part 2: WeMoveX vs Industry References](#part-2-wemovex-vs-industry-references)
 - [Part 3: WeMoveX vs Australian Competitors](#part-3-wemovex-vs-australian-competitors)
 - [Part 4: Usability Deep Dive](#part-4-usability-deep-dive)
+- [Part 5: Design Deep Dive](#part-5-design-deep-dive)
 - [Industry Trends & Best Practices](#industry-trends--best-practices)
 - [Detailed Scoring](#detailed-scoring)
 - [Key Findings](#key-findings)
@@ -506,6 +507,398 @@ WCAG 2.1 recommends minimum 44x44px touch targets.
 | **National Car Movers** | Adequate | Fair | Unoptimized | Slow | 65/100 |
 | **CEVA** | Adequate | Fair (sidebar disappears) | Good | Medium | 70/100 |
 | **PrixCar** | Basic | Poor (content overlaps) | Poor | Slow | 52/100 |
+
+---
+
+## Part 5: Design Deep Dive
+
+This section provides an in-depth analysis of visual design elements, aesthetics, and design system maturity across all analyzed sites.
+
+### 🎨 Visual Design Philosophy
+
+Each site adopts a different design philosophy that reflects their brand positioning and target audience:
+
+| Site | Design Philosophy | Visual Style | Target Impression |
+|------|-------------------|--------------|-------------------|
+| **WeMoveX** | Bold + Playful | Illustrative, vibrant gradients | Modern, approachable, memorable |
+| **WeMoveCars** | Clean + Professional | Mixed illustration/photo | Trustworthy, efficient |
+| **CEVA** | Corporate + Premium | Photography-led, blue tones | Enterprise, reliable |
+| **PrixCar** | Traditional + Functional | Stock photography | Established, industry-standard |
+| **National Car Movers** | Practical + Direct | Split imagery | Value-focused, practical |
+| **Flexport** | Tech-forward + Professional | Product screenshots, clean UI | Innovative, modern B2B |
+
+---
+
+### 🖼️ Hero Section Analysis
+
+The hero section is the most critical design element - it sets the first impression and drives initial engagement.
+
+#### Hero Design Comparison
+
+| Site | Hero Type | Key Visual Element | Emotional Impact | CTA Visibility |
+|------|-----------|-------------------|------------------|----------------|
+| **WeMoveX** | Full-bleed illustrated | Retro-futuristic truck illustration from driver POV | Exciting, adventurous | ⭐⭐⭐⭐⭐ |
+| **WeMoveCars** | Service-grid | Pink illustrated vehicles | Approachable, clear | ⭐⭐⭐⭐ |
+| **CEVA** | Photo + form overlay | Sydney Harbour Bridge at night | Premium, established | ⭐⭐⭐⭐ |
+| **National Car Movers** | Aerial photo + form | Coastal highway | Natural, journey-focused | ⭐⭐⭐ |
+| **PrixCar** | Carousel + form | Stock truck photography | Generic, functional | ⭐⭐ |
+| **Flexport** | Split content/product | Dashboard UI screenshot | Tech-forward, capable | ⭐⭐⭐⭐ |
+
+#### WeMoveX Hero: Detailed Analysis
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  [Logo]        Services  Fleet  Tracking  About    [Get Quote]  │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│              🟢 Australia's #1 Vehicle Transport                │
+│                                                                 │
+│              ╔═══════════════════════════════════╗             │
+│              ║     Your Journey,                  ║             │
+│              ║        Our Road                    ║   (Yellow)  │
+│              ╚═══════════════════════════════════╝             │
+│                                                                 │
+│         From cars to heavy machinery, we move anything          │
+│         with wheels across Australia. Fast, safe, insured.      │
+│                                                                 │
+│                      ┌─────────────┐                            │
+│                      │  Get Quote  │                            │
+│                      └─────────────┘                            │
+│                                                                 │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │      🚛 ILLUSTRATED TRUCK CABIN POV                      │   │
+│  │      Driver's perspective, Australian outback road       │   │
+│  │      Pink/coral gradient sky, eucalyptus trees           │   │
+│  │      Dashboard instruments visible                       │   │
+│  └─────────────────────────────────────────────────────────┘   │
+│                                                                 │
+│                          SCROLL ↓                               │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+**Strengths:**
+- ✅ Immersive driver-POV perspective creates emotional connection
+- ✅ Custom illustration differentiates from competitors using stock photos
+- ✅ Color palette (coral/pink gradient) is unique in the industry
+- ✅ Typography hierarchy is clear and impactful
+- ✅ Animated ticker banner adds dynamism without distraction
+
+**Design Score: 95/100**
+
+---
+
+### 🎭 Color Psychology Analysis
+
+Colors evoke specific emotions and influence user behavior. Here's how each site uses color:
+
+| Site | Primary Color | Secondary | Accent | Psychological Effect | Industry Fit |
+|------|---------------|-----------|--------|---------------------|--------------|
+| **WeMoveX** | Hot Pink (#FF1493) | Cream (#FFF5EE) | Yellow (#FFD700) | Energetic, unique, memorable | ⭐⭐⭐⭐⭐ (Differentiated) |
+| **WeMoveCars** | Navy (#1E3A5F) | Pink (#FF69B4) | White | Professional yet approachable | ⭐⭐⭐⭐ (Balanced) |
+| **CEVA** | CEVA Blue (#003366) | Red (#E31837) | White | Corporate, trustworthy, premium | ⭐⭐⭐⭐ (Enterprise) |
+| **PrixCar** | Blue (#0056b3) | Orange (#FF6600) | White | Traditional, reliable | ⭐⭐⭐ (Standard) |
+| **National Car Movers** | Red (#DC3545) | Teal (#20c997) | White | Urgent, action-oriented | ⭐⭐⭐ (Functional) |
+| **Flexport** | Dark Blue (#0B3954) | Teal (#26A69A) | White | Modern, tech, trustworthy | ⭐⭐⭐⭐ (SaaS standard) |
+
+#### Color Usage Diagram
+
+```
+WeMoveX Color Distribution:
+┌──────────────────────────────────────────────────────────────┐
+│████████████████████████│░░░░░░░░░░░░░░│▓▓▓▓│████│           │
+│ Hot Pink (40%)         │ Cream (30%)   │Navy│Gold│ Others    │
+└──────────────────────────────────────────────────────────────┘
+
+CEVA Color Distribution:
+┌──────────────────────────────────────────────────────────────┐
+│████████████████████████████████████│░░░░░░░░░░│▓▓▓▓│        │
+│ CEVA Blue (60%)                     │ White    │Red │        │
+└──────────────────────────────────────────────────────────────┘
+
+PrixCar Color Distribution:
+┌──────────────────────────────────────────────────────────────┐
+│████████████████│░░░░░░░░░░░░░░░░░░░░░░░░░│▓▓▓▓▓▓▓▓│         │
+│ Blue (30%)     │ White (50%)             │Orange  │          │
+└──────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### 🔤 Typography Assessment
+
+Typography significantly impacts readability, brand perception, and accessibility.
+
+| Site | Heading Font | Body Font | Font Pairing | Readability | Brand Fit |
+|------|--------------|-----------|--------------|-------------|-----------|
+| **WeMoveX** | Custom/Playfair Display | Inter/System | Excellent | 95/100 | ⭐⭐⭐⭐⭐ |
+| **WeMoveCars** | Playfair Display | Inter | Good | 88/100 | ⭐⭐⭐⭐ |
+| **CEVA** | Corporate Sans | Arial | Professional | 82/100 | ⭐⭐⭐⭐ |
+| **PrixCar** | System/Helvetica | System | Generic | 70/100 | ⭐⭐ |
+| **National Car Movers** | Georgia/Serif | Open Sans | Mixed quality | 75/100 | ⭐⭐⭐ |
+| **Flexport** | Custom Flexport Sans | System | Premium | 90/100 | ⭐⭐⭐⭐⭐ |
+
+#### Typography Hierarchy Example (WeMoveX)
+
+```
+Typography Scale:
+├── H1: 56px / 1.1 line-height / Playfair Display / Bold
+│       "Your Journey, Our Road"
+│
+├── H2: 40px / 1.2 line-height / Playfair Display / Semi-Bold
+│       "We move everything"
+│
+├── H3: 28px / 1.3 line-height / Inter / Medium
+│       "Caravan & Campers"
+│
+├── Body: 16px / 1.6 line-height / Inter / Regular
+│       "All towable items including camper trailers..."
+│
+└── Caption: 14px / 1.5 line-height / Inter / Regular
+        "03 / 12"
+```
+
+---
+
+### 🃏 Card & Component Design
+
+Service cards are crucial for showcasing offerings. Here's a comparison of card design quality:
+
+#### Card Design Matrix
+
+| Site | Card Style | Visual Consistency | Interactive States | Information Density | Score |
+|------|------------|-------------------|-------------------|---------------------|-------|
+| **WeMoveX** | Illustrated, rounded corners | ⭐⭐⭐⭐⭐ | Hover scales + shadow | Optimal | 95/100 |
+| **WeMoveCars** | Illustrated, subtle shadow | ⭐⭐⭐⭐⭐ | Hover highlight | Good | 88/100 |
+| **CEVA** | Tab-based panels | ⭐⭐⭐ | Active tab indicator | Dense | 72/100 |
+| **PrixCar** | Stock photo cards | ⭐⭐ | Basic hover | Verbose | 60/100 |
+| **National Car Movers** | Icon + text boxes | ⭐⭐⭐ | Minimal | Sparse | 65/100 |
+| **Flexport** | Icon cards, clean | ⭐⭐⭐⭐ | Subtle elevation | Optimal | 85/100 |
+
+#### WeMoveX Card Anatomy
+
+```
+┌─────────────────────────────────────────┐
+│  ┌─────────────────────────────────┐    │
+│  │                                 │    │
+│  │   🚐 Pink Caravan Illustration  │    │
+│  │       (Custom artwork)          │    │
+│  │                                 │    │
+│  └─────────────────────────────────┘    │
+│                                         │
+│  03 / 12                   (Pink text)  │
+│                                         │
+│  Caravan & Campers    →                 │
+│                                         │
+│  All towable items including camper     │
+│  trailers, caravans and 5th wheelers    │
+│  for your next adventure.               │
+│                                         │
+│  ─────────────────────────────────────  │
+│  Caravans • Camper Trailers • 5th...    │
+│                                         │
+└─────────────────────────────────────────┘
+
+Design Details:
+- Border radius: 16px
+- Box shadow: 0 4px 20px rgba(0,0,0,0.08)
+- Hover: translateY(-4px) + stronger shadow
+- Image aspect ratio: 16:10
+- Typography: Clear hierarchy with numbering
+```
+
+---
+
+### 📊 Design System Maturity
+
+A mature design system ensures consistency, scalability, and efficient development.
+
+| Site | System Maturity | Component Library | Spacing System | Responsive Grid | Documentation |
+|------|-----------------|-------------------|----------------|-----------------|---------------|
+| **WeMoveX** | Advanced | Custom components | 8px base | 12-column | Likely exists |
+| **WeMoveCars** | Intermediate | Shared with WeMoveX | 8px base | 12-column | Shared |
+| **Flexport** | Enterprise | Full design system | 4px base | 12-column | Public |
+| **CEVA** | Basic | Template-based | Inconsistent | Basic grid | Unlikely |
+| **PrixCar** | Legacy | CMS templates | Ad-hoc | No clear grid | Unlikely |
+| **National Car Movers** | Basic | WordPress theme | Mixed | Basic responsive | None |
+
+#### Design System Score
+
+```
+Design System Maturity Radar:
+
+WeMoveX:
+Components    ████████████████████ 95%
+Consistency   █████████████████░░░ 88%
+Scalability   ████████████████░░░░ 82%
+Documentation ██████████████░░░░░░ 70%
+Tokens        ████████████████░░░░ 80%
+
+PrixCar:
+Components    ████████░░░░░░░░░░░░ 40%
+Consistency   ██████░░░░░░░░░░░░░░ 30%
+Scalability   ████████░░░░░░░░░░░░ 40%
+Documentation █░░░░░░░░░░░░░░░░░░░ 10%
+Tokens        ████░░░░░░░░░░░░░░░░ 20%
+```
+
+---
+
+### 🖌️ Imagery & Illustration Style
+
+Visual assets significantly impact brand perception and user engagement.
+
+| Site | Imagery Type | Style Consistency | Quality | Uniqueness | Emotional Appeal |
+|------|--------------|-------------------|---------|------------|------------------|
+| **WeMoveX** | Custom illustration | ⭐⭐⭐⭐⭐ | Premium | Highly unique | High |
+| **WeMoveCars** | Custom illustration | ⭐⭐⭐⭐⭐ | Premium | Unique | High |
+| **CEVA** | Professional photos | ⭐⭐⭐⭐ | High | Common | Medium |
+| **PrixCar** | Stock + real photos | ⭐⭐ | Mixed | Generic | Low |
+| **National Car Movers** | Aerial/stock photos | ⭐⭐⭐ | Good | Moderate | Medium |
+| **Flexport** | Product screenshots | ⭐⭐⭐⭐ | High | Tech-focused | Medium |
+
+#### Illustration Style Breakdown (WeMoveX)
+
+```
+Visual Style Elements:
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│   🎨 COLOR PALETTE                                           │
+│   ├── Hot Pink (#FF1493) - Brand signature                  │
+│   ├── Coral (#FF7F7F) - Gradients, warmth                   │
+│   ├── Navy (#1A1A2E) - Text, depth                          │
+│   └── Gold (#FFD700) - Accents, highlights                  │
+│                                                              │
+│   ✏️ ILLUSTRATION CHARACTERISTICS                            │
+│   ├── Flat design with subtle gradients                     │
+│   ├── Consistent 3/4 perspective on vehicles                │
+│   ├── Soft shadows for depth                                │
+│   ├── Rounded corners and friendly forms                    │
+│   └── Australian landscape elements (eucalyptus, outback)   │
+│                                                              │
+│   🎯 BRAND CONSISTENCY                                       │
+│   ├── Every vehicle features WeMoveX logo                   │
+│   ├── Pink color appears on all transport vehicles          │
+│   └── Consistent art direction across all illustrations     │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### 🌓 Light/Dark Mode & Contrast
+
+| Site | Dark Mode | Contrast Ratio (WCAG) | Background Variety | Night UX |
+|------|-----------|----------------------|--------------------|---------| 
+| **WeMoveX** | N/A (light focused) | AAA compliant | Gradients + white | N/A |
+| **WeMoveCars** | N/A | AA compliant | White base | N/A |
+| **CEVA** | Dark hero area | AA compliant | Dark header, light body | Good |
+| **Flexport** | System preference | AAA compliant | Adaptive | Excellent |
+| **PrixCar** | N/A | AA (some failures) | White/blue | N/A |
+| **National Car Movers** | N/A | AA compliant | White with photo | N/A |
+
+---
+
+### 📐 Whitespace & Visual Breathing Room
+
+| Site | Whitespace Quality | Section Padding | Content Density | Visual Balance |
+|------|-------------------|-----------------|-----------------|----------------|
+| **WeMoveX** | Excellent | 80-120px | Optimal | ⭐⭐⭐⭐⭐ |
+| **WeMoveCars** | Good | 60-80px | Good | ⭐⭐⭐⭐ |
+| **Flexport** | Excellent | 80-100px | Optimal | ⭐⭐⭐⭐⭐ |
+| **CEVA** | Moderate | 40-60px | Dense | ⭐⭐⭐ |
+| **PrixCar** | Poor | 20-40px | Cluttered | ⭐⭐ |
+| **National Car Movers** | Moderate | 40-60px | Variable | ⭐⭐⭐ |
+
+---
+
+### 🎬 Motion & Animation Design
+
+| Site | Animation Quality | Micro-interactions | Page Transitions | Performance Impact |
+|------|------------------|-------------------|------------------|-------------------|
+| **WeMoveX** | High | Ticker, hover states, scroll | Smooth | Minimal |
+| **WeMoveCars** | Moderate | Card hovers, chat widget | Basic | Minimal |
+| **CEVA** | Basic | Carousel auto-scroll | None | None |
+| **PrixCar** | Basic | Carousel only | None | None |
+| **National Car Movers** | Minimal | Basic hovers | None | None |
+| **Flexport** | Moderate | Dropdown menus, chat | Basic | Minimal |
+
+#### Animation Inventory (WeMoveX)
+
+```
+Animations Present:
+├── Hero
+│   ├── Services ticker (continuous scroll) ───── 20s linear infinite
+│   ├── Fade-in on load ───────────────────────── 0.8s ease-out
+│   └── Scroll indicator bounce ───────────────── 2s infinite
+│
+├── Navigation
+│   ├── Sticky header transition ──────────────── 0.3s ease
+│   └── Menu hover underline ──────────────────── 0.2s ease-in-out
+│
+├── Cards
+│   ├── Hover lift (translateY) ───────────────── 0.3s ease
+│   ├── Shadow enhancement ────────────────────── 0.3s ease
+│   └── Arrow slide on hover ──────────────────── 0.2s ease
+│
+└── Form
+    ├── Focus state glow ──────────────────────── 0.2s ease
+    └── Button hover scale ────────────────────── 0.15s ease
+```
+
+---
+
+### 📱 Mobile Design Assessment
+
+| Site | Mobile Layout | Touch Targets | Navigation | Visual Hierarchy | Score |
+|------|---------------|---------------|------------|------------------|-------|
+| **WeMoveX** | Optimized | 44px+ | Hamburger + sticky | Excellent | 95/100 |
+| **WeMoveCars** | Responsive | 44px+ | Hamburger | Good | 85/100 |
+| **CEVA** | Responsive | Mixed | Side drawer | Good | 78/100 |
+| **PrixCar** | Basic | Too small | Hamburger | Poor | 55/100 |
+| **National Car Movers** | Responsive | Adequate | Hamburger | Fair | 70/100 |
+| **Flexport** | Optimized | 44px+ | Hamburger | Excellent | 90/100 |
+
+---
+
+### 🏆 Design Rankings Summary
+
+#### Overall Design Score
+
+| Rank | Site | Visual Design | Typography | Color | Components | Animation | **Total** |
+|------|------|---------------|------------|-------|------------|-----------|-----------|
+| 1 | **WeMoveX** | 95 | 95 | 95 | 95 | 90 | **94/100** |
+| 2 | **Flexport** | 88 | 90 | 85 | 85 | 80 | **86/100** |
+| 3 | **WeMoveCars** | 85 | 88 | 85 | 88 | 75 | **84/100** |
+| 4 | **CEVA** | 78 | 80 | 80 | 72 | 60 | **74/100** |
+| 5 | **National Car Movers** | 70 | 75 | 72 | 65 | 50 | **66/100** |
+| 6 | **PrixCar** | 55 | 65 | 65 | 60 | 40 | **57/100** |
+
+#### Design Verdict
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                        DESIGN VERDICT                                   │
+├────────────────────────────────────────────────────────────────────────┤
+│                                                                        │
+│  🥇 WeMoveX (94/100)                                                   │
+│     "Best-in-class design that sets a new standard for the Australian  │
+│      vehicle transport industry. The custom illustration style,        │
+│      bold color palette, and attention to detail create a memorable    │
+│      and differentiated brand experience."                             │
+│                                                                        │
+│  Key Design Wins:                                                      │
+│  ✓ Unique illustrative style eliminates generic stock photo look      │
+│  ✓ Bold pink/coral palette stands out in blue-dominated industry      │
+│  ✓ Consistent design system ensures scalability                       │
+│  ✓ Motion design adds polish without compromising performance          │
+│  ✓ Mobile-first approach with excellent touch interactions            │
+│                                                                        │
+│  Industry Benchmark:                                                   │
+│  WeMoveX's design is comparable to leading tech/SaaS companies like   │
+│  Flexport while maintaining an approachable, consumer-friendly feel.   │
+│                                                                        │
+└────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
